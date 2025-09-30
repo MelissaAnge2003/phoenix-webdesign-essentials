@@ -1,2 +1,17 @@
+# Elixir / Phoenix
+/_build
+/deps
+/erl_crash.dump
+/*.ez
+mix.lock
+
+# assets / node
+/node_modules
+/assets/node_modules
+/assets/_build
+
+# editor / mac
+*.swp
 .DS_Store
-/.idea
+.idea
+.vscode
