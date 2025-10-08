@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+}
+#intro {
+    text-transform: uppercase;
+}
+.highlight {
+   text-decoration: underline;
+}

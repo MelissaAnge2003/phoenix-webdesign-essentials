@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Tables</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Working with tables</h1>
+        <article>
+            <h2>Simple table</h2>
+            <table>
+                <tr>
+                    <td>Webdesign Essentials</td>
+                    <td>Brent</td>
+                </tr>
+                <tr>
+                    <td>Programimg Essentials</td>
+                    <td>Jitse Beyens</td>
+                </tr>
+                <tr>
+                    <td>Operating Systems</td>
+                    <td>Quinten Desmyter</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Table with header and Caption</h2>
+            <table>
+                <caption>
+                    Student grades
+                </caption>
+                <tr>
+                    <th>Student</th>
+                    <th>Web. Essentials</th>
+                    <th>data Essentials</th>
+                    <th>Skill1</th>
+                </tr>
+                <tr>
+                    <td>Ange Melissa ISHIMWE</td>
+                    <td>12/20</td>
+                    <td>14/20/20</td>
+                    <td>15/20</td>
+                </tr>
+
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td>John</td>
+                    <td>2/20</td>
+                    <td>2/20</td>
+                    <td>7/20</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Table with combined cells</h2>
+            <table>
+                <tr>
+                    <td>Webdesign Essentials</td>
+                    <td>Brent Pulmans</td>
+                </tr>
+                <tr>
+                    <td>Programimg Essentials</td>
+                    <td>Jitse Beyens</td>
+                </tr>
+                <tr>
+                    <td>Operating Systems</td>
+                    <td>Quinten Desmyter</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Table with header and Caption</h2>
+            <table>
+                <caption>
+                    Student grades
+                </caption>
+                <tr>
+                    <th>Student</th>
+                    <th>Web. Essentials</th>
+                    <th>data Essentials</th>
+                    <th>Skill1</th>
+                </tr>
+
+                <tr></tr>
+                <tr></tr>
+                <tr>
+                    <td>John</td>
+                    <td>2/20</td>
+                    <td>2/20</td>
+                    <td>7/20</td>
+                </tr>
+            </table>
+            <h3>Cells spanning several rows</h3>
+            <table>
+                <tr>
+                    <th>Course</th>
+                    <th>Students</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Webdesign</td>
+
+                    <td>Emma</td>
+                    <td>14/20</td>
+                </tr>
+                <tr>
+                    <td>Edgar</td>
+                    <td>5/20</td>
+                </tr>
+                <tr>
+                    <td>Programming Essentials</td>
+                    <td>Emma</td>
+                    <td>8/20</td>
+                </tr>
+                <tr>
+                    <td>Edgar</td>
+                    <td>8/20</td>
+                </tr>
+                <tr>
+                    <td>Tom</td>
+                    <td>12/20</td>
+                </tr>
+            </table>
+        </article>
+        <article>
+            <h2>Table with vertical lay-out</h2>
+            <table>
+                <caption>
+                    Personal To do list
+                </caption>
+                <colgroup>
+                    <col />
+                    <col />
+                    <col />
+                </colgroup>
+                <colgroup>
+                    <col />
+                    <col />
+                </colgroup>
+                <tr>
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Student number</th>
+                    <th>To do list</th>
+                    <th>Ready?</th>
+                </tr>
+                <tr>
+                    <td>Brent</td>
+                    <td>Pulmans</td>
+                    <td>r0625004</td>
+                    <td>
+                        <ul>
+                            <li>
+                                Prepare class for Wednesday:
+                                <ol start="3">
+                                    <li>Data Engineering</li>
+                                    <li>Web Essentials</li>
+                                    <li>Web Essentials</li>
+                                </ol>
+                            </li>
+                            <li>Feed the cats</li>
+                            <li>Take the picture for photo challenge</li>
+                        </ul>
+                    </td>
+                    <td>No</td>
+                </tr>
+                <tr>
+                    <td>Harry</td>
+                    <td>Houdini</td>
+                    <td>r12345</td>
+                    <td>
+                        <ul>
+                            <li>Escape from class</li>
+                            <li>Rise from the dead</li>
+                        </ul>
+                    </td>
+                    <td>No</td>
+                </tr>
+                <tr></tr>
+            </table>
+        </article>
+    </body>
+</html>

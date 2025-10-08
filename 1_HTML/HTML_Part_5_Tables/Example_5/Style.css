@@ -1,0 +1,17 @@
+table, td, th {
+    border: solid black;
+}
+
+colgroup:first-of-type {
+    background-color: green;
+    color: black;
+}
+
+colgroup:last-of-type {
+    background-color: blue;
+    color: black;
+}
+
+col {
+    width: 250px;
+}
