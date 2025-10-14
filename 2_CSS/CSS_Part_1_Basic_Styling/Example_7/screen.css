@@ -1,0 +1,20 @@
+
+#tomato {
+    color: #8ace00! important;
+    background-color: transparent;
+}
+#tomato a:link {
+    color: #4f2ef2;
+    background-color: transparent;
+}
+#tomato a:hover {
+color: #aaa;
+background-color: transparent;
+}
+
+/* pseudo classes (states) for links 
+ *always in the right/same order:
+ *a: link
+ *a: focus
+ *a:hover
+ *a:active */

@@ -1,0 +1,66 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.serif {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+}
+
+.italic {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+section h2 {
+    text-decoration: underline;
+}
+
+.italic,
+.bold {
+    line-height: 2;
+}
+
+#alignment p {
+    font-size: 1.2rem;
+}
+
+#alignment p:first-of-type {
+    text-align: center;
+}
+
+#alignment p:last-of-type {
+    text-align: right;
+}
+
+#colors {
+    background-color: rgb(242,236,177);
+    color: black;
+}
+
+#tomato {
+    color: blue !important; /* corrected color */
+    background-color: transparent;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+ul li::before {
+    content: "\1F449";
+    margin-right: 0.5em;
+}
+
+}
+    ul {
+        list-style-type:"👉";
+    }
+article ul{
+    list-style-type:square;
+    list-style-position: inside;
+}
