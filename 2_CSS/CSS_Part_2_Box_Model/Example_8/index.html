@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Box model</title>
+        <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet" />
+        <link rel="stylesheet" href="small.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    </head>
+    <body>
+        <h1><i class="fa-solid fa-box-open"></i> Unboxing the Box Model</h1>
+        <nav>
+            <a href="#">Padding</a>
+            <a href="#">Margin</a>
+            <a href="#">Border-box</a>
+        </nav>
+        <h2>Box with padding(space inside the box)</h2>
+        <div class="box">
+            <p>width:200px</p>
+            <p>padding: 20px</p>
+        </div>
+        <p>
+            Total width is 200px (width property)+ 20px left padding + 20 px right padding + 2*2px border=244px overall
+        </p>
+
+        <h2>Box with margin(space outside of the box)</h2>
+        <div class="box spaced">
+        <p>margin: 20px</p>
+        </div>
+        <p> Same size as previous box, but with space added between box and elements</p>
+
+        <h2>Border-box</h2>
+        <p class="box">Normal box</p>
+        <p class="box border-box">Border-Box</p>
+
+        <footer>
+            <h2>Want to know more?</h2>
+            <p>Call the thomas more hotline</p>
+            <p><i class="fa-solid fa-phone"></i> 0465437</p>
+        </footer>
+    </body>
+</html>
