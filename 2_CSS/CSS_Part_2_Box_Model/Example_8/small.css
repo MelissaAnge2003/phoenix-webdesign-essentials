@@ -59,12 +59,13 @@ nav a {
     padding: 5px;
     text-decoration: none;
     border-left: 5px solid navy;
+    display: block;
+    margin: 10px;
 
 }
 a:hover{
     background-color: navy;
     color: white;
-    border: 20px solid purple;
     border-left: 5px solid lightblue;
     
 }
@@ -76,3 +77,16 @@ nav a:active {
 .nav{
     margin-bottom: 25px;
 } 
+.overflow-box {
+    height: 200px;
+    overflow: scroll;
+    
+}
+#print-notice {
+    /*visibility: hidden;*/
+    
+}
+#brands p{
+    background-color: rgb(230,50,10,0.5);
+}
+}

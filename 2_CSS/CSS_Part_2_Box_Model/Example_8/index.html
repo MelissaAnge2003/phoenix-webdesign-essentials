@@ -2,10 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Box model</title>
+        
         <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap" rel="stylesheet" />
         <link rel="stylesheet" href="small.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+        <link rel="stylesheet" href="large.css" media="screen and (min-width: 600px)" />
+        <link rel="stylesheet" href="print.css" media="print"/>
     </head>
     <body>
         <h1><i class="fa-solid fa-box-open"></i> Unboxing the Box Model</h1>
@@ -25,14 +29,31 @@
 
         <h2>Box with margin(space outside of the box)</h2>
         <div class="box spaced">
-        <p>margin: 20px</p>
+            <p>margin: 20px</p>
         </div>
-        <p> Same size as previous box, but with space added between box and elements</p>
+        <p>Same size as previous box, but with space added between box and elements</p>
 
         <h2>Border-box</h2>
         <p class="box">Normal box</p>
         <p class="box border-box">Border-Box</p>
+        <h2>Overflow</h2>
+        <p class="overflow-box box">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequatur pariatur id, illo, impedit magni
+            quae aliquam quis? Rerum ducimus quia quae ut, ipsam assumenda recusandae eveniet accusantium, nesciunt eius
+            tempore culpa voluptate atque, nulla magni numquam. Atque quam, error modi ullam cum ex molestiae totam! Hic
+            iste voluptatem neque, maxime assumenda, ea iusto sit, iure laudantium repellat necessitatibus velit.
+            Aperiam iusto eius iure, magnam repudiandae modi ipsum illum voluptatum quo ipsam in itaque qui hic officia
+            excepturi, facere porro. Nesciunt ducimus, iusto provident esse, magnam delectus numquam sit dolore, nulla
+            placeat ipsa. Dolorem voluptas illo qui, magni, doloribus quibusdam.  </p>
+            <h2>Display: Inline-block</h2>
+            <p>Audi</p>
+            <p>Seat</p>
+            <p>VW</p>
 
+        <div id="printe-notice">
+        <h2>Think before you ink</h2>
+        <p>Print responsibly, only print what you really need</p></div>
+        
         <footer>
             <h2>Want to know more?</h2>
             <p>Call the thomas more hotline</p>
