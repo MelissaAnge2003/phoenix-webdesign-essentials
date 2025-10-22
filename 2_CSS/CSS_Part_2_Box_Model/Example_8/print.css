@@ -1,0 +1,7 @@
+#print-notice {
+    display: block;
+}
+nav, footer {
+    display: none;
+    
+}
