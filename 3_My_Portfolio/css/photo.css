@@ -1,0 +1,213 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+    padding: 0;
+    margin: 0;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: white;
+}
+
+/* Title Container */
+.title-container {
+    background-color: #BF7E04;
+    padding: 15px 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title-container h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
+    margin: 0;
+}
+
+/* Content Area */
+.content {
+    padding: 20px;
+}
+
+/* Photo Section */
+.photo-section {
+    margin-bottom: 30px;
+}
+
+.photo-container {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.photo-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.photo-links {
+    margin-top: 10px;
+}
+
+.photo-links a {
+    color: #BF7E04;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.photo-links a:hover,
+.photo-links a:focus {
+    color: #996100;
+    text-decoration: underline;
+    outline: 2px solid #BF7E04;
+    outline-offset: 2px;
+}
+
+/* Description with Quote Icon */
+.description {
+    position: relative;
+    padding-left: 30px;
+}
+
+.description p {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Quote Icon Styling */
+.fa-quote-left {
+    color: #BF7E04;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.7;
+}
+
+/* Alternative: Quote icon using CSS pseudo-element */
+.description p:first-child::before {
+    content: "\f10d"; /* Font Awesome quote-left unicode */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    color: #BF7E04;
+    font-size: 1.2rem;
+    margin-right: 10px;
+    opacity: 0.7;
+}
+
+/* Divider */
+.divider {
+    height: 1px;
+    background-color: #e2e8f0;
+    margin: 25px 0;
+}
+
+/* Session Info */
+.session-info h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 15px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+}
+
+table, th, td {
+    border: 1px solid #cbd5e0;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: rgba(191, 126, 4, 0.05);
+    font-weight: 600;
+}
+
+/* Back to Home */
+.back-home {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.back-home a {
+    color: #BF7E04;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-home a:hover,
+.back-home a:focus {
+    color: #996100;
+    text-decoration: underline;
+    outline: 2px solid #BF7E04;
+    outline-offset: 2px;
+}
+
+/* Footer */
+footer {
+    padding: 25px 20px;
+    text-align: center;
+    background-color: #BF7E04;
+}
+
+.footer-links {
+    margin-bottom: 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+    color: #f0f0f0;
+    text-decoration: underline;
+    outline: 2px solid white;
+    outline-offset: 2px;
+}
+
+.ai-notice {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.85rem;
+}
+
+/* Text Selection Styling */
+::selection {
+    background-color: rgba(191, 126, 4, 0.3);
+}
+
+::-moz-selection {
+    background-color: rgba(191, 126, 4, 0.3);
+}
