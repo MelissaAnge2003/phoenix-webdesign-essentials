@@ -1,14 +1,11 @@
-/* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap');
 
-/* Base Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Base Styles */
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
@@ -18,7 +15,6 @@ body {
     margin: 0;
 }
 
-/* Container */
 .container {
     width: 100%;
     max-width: 100%;
@@ -26,7 +22,6 @@ body {
     background-color: white;
 }
 
-/* Title Container */
 .title-container {
     background-color: #BF7E04;
     padding: 15px 20px;
@@ -42,12 +37,10 @@ body {
     margin: 0;
 }
 
-/* Content Area */
 .content {
     padding: 20px;
 }
 
-/* Photo Section */
 .photo-section {
     margin-bottom: 30px;
 }
@@ -83,19 +76,18 @@ body {
     outline-offset: 2px;
 }
 
-/* Description with Quote Icon */
 .description {
     position: relative;
-    padding-left: 30px;
+    padding: 0 30px;
 }
 
 .description p {
     margin-bottom: 15px;
     text-align: left;
+    position: relative;
 }
 
-/* Quote Icon Styling */
-.fa-quote-left {
+.fa-quote-left:first-child {
     color: #BF7E04;
     font-size: 1.5rem;
     position: absolute;
@@ -104,25 +96,22 @@ body {
     opacity: 0.7;
 }
 
-/* Alternative: Quote icon using CSS pseudo-element */
-.description p:first-child::before {
-    content: "\f10d"; /* Font Awesome quote-left unicode */
-    font-family: "Font Awesome 6 Free";
-    font-weight: 900;
+.fa-quote-left:last-child {
     color: #BF7E04;
-    font-size: 1.2rem;
-    margin-right: 10px;
+    font-size: 1.5rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     opacity: 0.7;
+    transform: rotate(180deg);
 }
 
-/* Divider */
 .divider {
     height: 1px;
     background-color: #e2e8f0;
     margin: 25px 0;
 }
 
-/* Session Info */
 .session-info h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -131,7 +120,6 @@ body {
     margin-bottom: 15px;
 }
 
-/* Table Styles */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -152,7 +140,6 @@ th {
     font-weight: 600;
 }
 
-/* Back to Home */
 .back-home {
     text-align: center;
     margin: 20px 0;
@@ -172,7 +159,6 @@ th {
     outline-offset: 2px;
 }
 
-/* Footer */
 footer {
     padding: 25px 20px;
     text-align: center;
@@ -184,30 +170,10 @@ footer {
 }
 
 .footer-links a {
+    display: inline-block;
     color: white;
     text-decoration: none;
     font-weight: bold;
     margin: 0 10px;
 }
 
-.footer-links a:hover,
-.footer-links a:focus {
-    color: #f0f0f0;
-    text-decoration: underline;
-    outline: 2px solid white;
-    outline-offset: 2px;
-}
-
-.ai-notice {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 0.85rem;
-}
-
-/* Text Selection Styling */
-::selection {
-    background-color: rgba(191, 126, 4, 0.3);
-}
-
-::-moz-selection {
-    background-color: rgba(191, 126, 4, 0.3);
-}
