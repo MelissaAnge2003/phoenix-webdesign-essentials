@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif
+}
+img {
+    width: 150px;
+    background-color: rgb(246, 245, 155);
+    padding: 0.3rem;
+}
+
+#gros-michel {
+    float: right;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+#cavendish {
+    float: left;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.container {
+    padding: 1 rem;
+}
+.highlight {
+    background-color: #ffc42c;
+}
+.clearfloat {
+    /*clear: both;*/
+    overflow: auto;
+}
+.move-right {
+    background-color: #ff932c;
+    color: black;
+}
