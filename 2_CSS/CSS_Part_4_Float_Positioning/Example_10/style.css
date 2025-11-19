@@ -5,8 +5,12 @@
 }
 
 body {
-    font-family: Verdana, sans-serif
+    font-family: Verdana, sans-serif;
+    min-height: 100vh;
+    padding-bottom: 50px;
+    position: relative;
 }
+
 img {
     width: 150px;
     background-color: rgb(246, 245, 155);
@@ -41,4 +45,30 @@ p {
 .move-right {
     background-color: #ff932c;
     color: black;
+    position: relative;
+    right: -25px; /* left: 25px; */
+    bottom: 30-px;  /* top: -30px; */
+}
+.stick-top-right{
+    position: absolute;
+    top:30px;
+    right: 10px;
+}
+.fixed {
+    position: fixed;
+    top: 5px;
+    right: 10px;
+    background-color: rgb(246, 245, 155);
+    color: black;
+    z-index: -1;
+}
+.footer {
+    background-color: rgb(246, 245, 155);
+    color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    padding: 10px;
 }
