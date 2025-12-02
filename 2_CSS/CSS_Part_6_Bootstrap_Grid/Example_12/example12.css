@@ -1,0 +1,40 @@
+/* Write as little code as possible here!!! */
+
+header {
+    background-color: #ffedb6;
+}
+
+h1 {
+    background-color: #fcd14d;
+}
+
+article {
+    background-color: #ffedb6;
+}
+
+section {
+    background-color: #fcd14d;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    background-color: #ccc;
+}
+
+li {
+    background-color: #ffbb86;
+}
+
+a {
+    background-color: #fc903c;
+    color: #000;
+}
+
+a:hover {
+    background-color: #ff5d00;
+    color: #000;
+}

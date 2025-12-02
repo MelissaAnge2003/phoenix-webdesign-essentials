@@ -6,7 +6,17 @@
 }
 
 html {
-     font-size: 16px;
+    font-size: 16px;
+}
+
+/* smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* respect user's reduced-motion preference */
+@media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
 }
 
 body {
@@ -97,8 +107,6 @@ header h1 {
 .project-image:hover .image-overlay {
     opacity: 1;
 }
-
-
 
 .view-project {
     display: inline-block; 
@@ -256,4 +264,3 @@ footer {
         font-size: 1.5rem;
     }
 }
-

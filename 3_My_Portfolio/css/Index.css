@@ -1,0 +1,202 @@
+/* ================= RESET + BASE ================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fffef7;
+    color: #333;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ================= HEADER ================= */
+header {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 25px;
+    border-bottom: 3px solid #ffd700;
+}
+
+header img {
+    border-radius: 50%;
+    border: 3px solid #ffd700;
+}
+
+header h1 {
+    font-family: "Montserrat", sans-serif;
+    margin-top: 12px;
+    font-size: 1.8rem;
+}
+
+/* ================= NAVIGATION ================= */
+nav ul {
+    list-style: none;
+    background: #fff9c4;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #ffd700;
+    text-decoration: underline;
+}
+
+/* ================= SERVICE CARDS ================= */
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    font-family: "Montserrat", sans-serif;
+    border-bottom: 2px solid #ffd700;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.small-btn {
+    background: #ffd700;
+    color: #333;
+}
+
+.small-btn:hover {
+    background: #ffcd38;
+}
+
+.merch-btn {
+    background: #ff8b00;
+    color: white;
+}
+
+.merch-btn:hover {
+    background: #e67600;
+}
+
+.dark-btn {
+    background: #222;
+    color: white;
+}
+
+.dark-btn:hover {
+    background: #555;
+}
+
+/* ================= PHOTOGRAPHY FIGURE ================= */
+figure img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #ffd700;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 8px;
+    font-style: italic;
+    color: #555;
+}
+
+/* ================= FOOTER ================= */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 3px solid #ffd700;
+    background: #fff9c4;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+.footer-links a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* ================= MEDIUM SCREENS ================= */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .services {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .card {
+        flex: 1 1 calc(50% - 20px);
+    }
+
+    footer .footer-links {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* ================= LARGE SCREENS ================= */
+@media (min-width: 1024px) {
+    .services {
+        flex-direction: row;
+    }
+
+    .card {
+        flex: 1 1 calc(25% - 20px);
+    }
+
+    header h1 {
+        font-size: 2.4rem;
+    }
+}

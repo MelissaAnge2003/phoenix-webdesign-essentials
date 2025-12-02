@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8" />
+        <title>CSS Part 6 Bootstrap grid</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="bootstrap-reboot.css" />
+        <link rel="stylesheet" href="bootstrap-grid.css" />
+        <link rel="stylesheet" href="example12.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="row">
+               
+                <h1 class="col-12">Bootstrap grid</h1>
+                <nav class="col-12">
+                    <ul class="row p-0">
+                        <li class="col-12 col-md-3 d-flex p-0"><a href="#!" class="col-12 p-3">Link 1</a></li>
+                        <li class="col-12 col-md-3 d-flex p-0"><a href="#!" class="col-12  p-3">Link 2</a></li>
+                        <li class="col-12 col-md-3 d-flex p-0"><a href="#!" class="col-12  p-3">Link 3</a></li>
+                        <li class="col-12 col-md-3 d-flex p-0"><a href="#!" class="col-12 p-3">Link 4</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <article class="row">
+                <h2 class="col-12">Theory</h2>
+
+                <p class="col-12 col-md-6 col-lg-7">
+                    A grid system can be compared to a simple construction kit. It's best to follow the included
+                    instructions closely and add your own touches to a limited extent, but you must use the kit's
+                    components correctly, otherwise the final result will be difficult to maintain or even unusable.
+                </p>
+
+                <figure class="col-12 col-md-6 col-lg-3 offset-lg-2">
+                    <img src="constructionkit1.jpg" alt="construction kit" />
+                    <figcaption>Image 1: construction kit</figcaption>
+                </figure>
+
+                <section class="col-12">
+                   <div class="row align-items-center">
+                    <h2 class="col-12">Tips</h2>
+                    <p>
+                        1. The labor costs are often too high to code every website from scratch. In practice, it's
+                        better to work with pre-built components so you can build websites faster. Grid systems provide
+                        a useful foundation for quickly creating a site that requires a columnar layout. Thanks to such
+                        a grid system, you can quickly achieve the desired result by adding the correct class names,
+                        without having to write your own code in a CSS file for positioning.
+                    </p>
+                    <p class="col-12  col-lg-4">
+                        2. When using a grid system, write AS LITTLE CSS as possible yourself and look for class names
+                        that are already present in the grid system and that you need to add to the tags in HTML to get
+                        the end result you want.
+                    </p>
+                    <p class="col-12  col-lg-4">
+                        3. NEVER change anything in the CSS file associated with the grid system, or you'll have to
+                        re-implement all the changes during the next grid system update. This means you're writing your
+                        own CSS in a DIFFERENT CSS file that's loaded AFTER the grid system.
+                    </p>
+                    </div>
+                </section>
+
+                <div class="col-12 py-5">
+                    <div class="row align-items-center justify-content-center">
+                        <p class="col-12 col-m-5 d-none d-md-block"> 
+                            A. With responsive web design, you start with the content, which needs
+                             to be displayed correctly
+                            on all devices. "Content first!"
+                        </p>
+                        <p  class="col-12 col-md-5">
+                            B. With responsive web design, it's best to start with a narrow-screen design before considering
+                            a wide-screen design. First, ensure mobile users can do/find/control everything on the site, and
+                            only then move on to a design for users who can view more elements simultaneously. This is more
+                            effective than starting with a large-screen design and then omitting elements for smaller
+                            screens. So, "Mobile first!"
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </body>
+</html>

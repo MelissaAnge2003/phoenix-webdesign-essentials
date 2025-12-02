@@ -1,102 +1,102 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <title>Webdesign Portfolio YellowDesign</title>
-    </head>
-    <body>
-        <div id="top">
-            <img src="logo.jpg" alt="YellowDesign Logo" width="50" height="50" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Webdesign Portfolio | YellowDesign</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="Index.css" />
+</head>
+
+<body>
+    <div id="top">
+        <header>
+            <img src="logo.jpg" alt="YellowDesign Logo" width="60" height="60" />
             <h1>Webdesign Portfolio YellowDesign</h1>
+        </header>
+
+        <section class="intro">
             <h2>Introduction</h2>
             <p>
-                Driven first-year AI student at Thomas More | Exploring the future of technology through code and
-                innovation.
+               Driven first-year AI student at Thomas More, deeply passionate about exploring the future of technology through code, design, and innovation. Welcome to my official portfolio a space where creativity meets clean structure and ideas transform into functional digital experiences. Here, I share my journey as I develop my skills in web design, artificial intelligence, and modern software development. From visual storytelling and aesthetic-driven layouts to technical projects and practical tools, this portfolio reflects both my curiosity and my commitment to continuous growth. Every project you’ll find here represents a new challenge, a new skill learned, and a step forward in becoming a confident, versatile digital creator.
             </p>
-            <h2>My Services</h2>
+        </section>
 
+        <nav>
+            <h2>My Services</h2>
             <ul>
                 <li><a href="#pro">Professional Photography</a></li>
-                <li>
-                    <a href="#cu">Custom projects</a>
-                </li>
+                <li><a href="#cu">Custom Projects</a></li>
                 <li><a href="#mer">Merchandise</a></li>
                 <li><a href="#quick">Quick Site Delivery</a></li>
             </ul>
+        </nav>
 
-            <h2 id="pro">Professional Photography</h2>
-            <section>
+        <main class="services">
+
+            <!-- PHOTOGRAPHY -->
+            <section id="pro" class="card">
+                <h2>Professional Photography</h2>
                 <p>
-                    I specialize in capturing high-quality, professional photographs that reflect your unique vision,
-                    style, and brand identity. From personal portraits and promotional content to commercial projects
-                    and creative editorials, I bring a blend of technical precision and artistic insight to every shoot.
-                    My goal is to not only meet your expectations but to create impactful visuals that leave a lasting
-                    impression.
+                    I specialize in capturing high-quality images that reflect your unique vision and style.
+                    From portraits to creative shots, every project blends precision with artistic direction.
                 </p>
 
                 <figure>
-                    <img
-                        src="https://images.pexels.com/photos/34039272/pexels-photo-34039272.jpeg"
-                        alt="Splash of Yellow Photography"
-                        width="400"
-                        height="267" />
+                    <img src="https://images.pexels.com/photos/34039272/pexels-photo-34039272.jpeg" alt="Splash of Yellow Photography Example" />
                     <figcaption>Example of professional Splash of Yellow Photography</figcaption>
                 </figure>
 
                 <h3>Photography Themes</h3>
-                <ul>
-                    <li>
-                        <a href="blackandwhite.html"> Black and White Photography </a>
-                    </li>
-                    <li>
-                        <a href="ASplashPfYellow.html"> A Splash of Yellow </a>
-                    </li>
-                    <li>
-                        <a href="Technology.html"> Technology </a>
-                    </li>
+                <ul class="photo-links">
+                    <li><a href="blackandwhite.html">Black and White Photography</a></li>
+                    <li><a href="ASplashPfYellow.html">A Splash of Yellow</a></li>
+                    <li><a href="Technology.html">Technology</a></li>
                 </ul>
-
-                <h2 id="cu">Custom Projects</h2>
-
-                <p>
-                    Welcome to my Project Gallery a space dedicated to the work that has shaped my growth in the tech
-                    world. Here, you’ll discover a variety of projects ranging from interactive web applications to
-                    practical tools and system-focused solutions. Each one highlights my approach to problem-solving,
-                    the skills I applied, and the improvements achieved along the way. Feel free to explore and get a
-                    closer look at how I transform ideas into functional, polished results.
-                </p>
-
-
-                <h2 id="mer">Merchandise</h2>
-                <p>
-                    <a href="projects.html">Take a look at my merchandise</a>
-                </p>
-
-                <h2 id="quick">Quick Site Delivery</h2>
-
-                <p>Add your quick site delivery content here</p>
-
-                <ul style="list-style: none; padding: 0; margin: 0; display: flex; gap: 15px">
-                    <li>
-                        <a
-                            href="https://www.pexels.com/@ishimwe-ange-melissa-2156059295/"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >Pexels</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="https://github.com/MelissaAnge2003/phoenix-webdesign-essentials"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            >GitHub</a
-                        >
-                    </li>
-                    <li><a href="#top">Top &uarr;</a></li>
-                </ul>
-                <p>AI has been used to generate text on this page</p>
             </section>
-        </div>
-    </body>
+
+            <!-- CUSTOM PROJECTS -->
+            <section id="cu" class="card">
+                <h2>Custom Projects</h2>
+                <p>
+                    Explore a curated selection of my personal and academic projects, each highlighting my growing expertise in web development, UI design, digital tools, and interactive applications. These projects reflect not only my technical abilities, but also my approach to problem-solving, creativity, and structured thinking. From small experiments and prototypes to fully developed assignments, every piece represents a meaningful step forward in my learning journey. Feel free to dive in and discover how I transform ideas into functional, polished, and purposeful digital experiences.
+                </p>
+
+                <p><a class="btn small-btn" href="#!">View Project</a></p>
+            </section>
+
+            <!-- MERCH -->
+            <section id="mer" class="card">
+                <h2>Merchandise</h2>
+                <p>
+                    Support the YellowDesign brand with exclusive stickers, apparel, accessories, 
+                    and modern design pieces featuring my signature aesthetic.
+                </p>
+
+                <a class="btn merch-btn" href="#!">Buy Merch</a>
+            </section>
+
+            <!-- QUICK DELIVERY -->
+            <section id="quick" class="card">
+                <h2>Quick Site Delivery</h2>
+                <p>
+                    Need a professional website fast? Get a clean, high-performance template customized 
+                    for your brand and delivered in record time.
+                </p>
+
+                <a class="btn dark-btn" href="#!">View Portfolio</a>
+            </section>
+
+        </main>
+
+        <footer>
+            <ul class="footer-links">
+                <li><a href="https://www.pexels.com/@ishimwe-ange-melissa-2156059295/" target="_blank">Pexels</a></li>
+                <li><a href="https://github.com/MelissaAnge2003/phoenix-webdesign-essentials" target="_blank">GitHub</a></li>
+                <li><a href="#top">Top ↑</a></li>
+            </ul>
+        </footer>
+    </div>
+</body>
 </html>
