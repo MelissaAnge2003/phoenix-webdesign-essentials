@@ -1,4 +1,3 @@
-/* ================= RESET + BASE ================= */
 * {
     margin: 0;
     padding: 0;
@@ -8,6 +7,11 @@
 html {
     scroll-behavior: smooth;
 }
+p {
+    margin-bottom: 16px; 
+    line-height: 1.6;    
+}
+
 
 body {
     font-family: "Roboto", sans-serif;
@@ -18,7 +22,6 @@ body {
     margin: auto;
 }
 
-/* ================= HEADER ================= */
 header {
     text-align: center;
     padding-bottom: 20px;
@@ -37,7 +40,6 @@ header h1 {
     font-size: 1.8rem;
 }
 
-/* ================= NAVIGATION ================= */
 nav ul {
     list-style: none;
     background: #fff9c4;
@@ -63,7 +65,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* ================= SERVICE CARDS ================= */
 .services {
     display: flex;
     flex-direction: column;
@@ -84,7 +85,6 @@ nav a:hover {
     padding-bottom: 5px;
 }
 
-/* Buttons */
 .btn {
     display: inline-block;
     padding: 10px 16px;
@@ -121,7 +121,6 @@ nav a:hover {
     background: #555;
 }
 
-/* ================= PHOTOGRAPHY FIGURE ================= */
 figure img {
     width: 100%;
     border-radius: 8px;
@@ -135,7 +134,6 @@ figcaption {
     color: #555;
 }
 
-/* ================= FOOTER ================= */
 footer {
     margin-top: 40px;
     padding-top: 20px;
@@ -162,7 +160,36 @@ footer {
     text-decoration: underline;
 }
 
-/* ================= MEDIUM SCREENS ================= */
+.themes-box {
+    background-color: #d3d3d3; 
+    padding: 6px 15px;
+    border-radius: 8px;
+    display: inline-flex; 
+    gap: 8px;
+    justify-content: center;
+    margin: 9px 0;
+    height: 36px;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.themes-box a {
+    text-decoration: none;
+    color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    transition: 0.3s;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.themes-box a:hover {
+    background-color: #ffd700;
+    color: #222;
+}
+
 @media (min-width: 768px) {
     nav ul {
         flex-direction: row;
@@ -175,10 +202,17 @@ footer {
         flex-wrap: wrap;
         gap: 30px;
     }
-
-    .card {
-        flex: 1 1 calc(50% - 20px);
-    }
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    justify-content: space-between;
+}
 
     footer .footer-links {
         flex-direction: row;
@@ -186,11 +220,11 @@ footer {
     }
 }
 
-/* ================= LARGE SCREENS ================= */
-@media (min-width: 1024px) {
-    .services {
-        flex-direction: row;
+@media (min-width: 768px) {
+    .card {
+        aspect-ratio: 1 / 1; 
     }
+}
 
     .card {
         flex: 1 1 calc(25% - 20px);
@@ -200,3 +234,4 @@ footer {
         font-size: 2.4rem;
     }
 }
+
