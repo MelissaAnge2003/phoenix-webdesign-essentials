@@ -218,26 +218,28 @@
         .project-content {
             padding: 30px;
             overflow: hidden;
-        }
+.description {
+    padding: 0 30px;
+}
 
-        .footer-content {
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-        }
+.description p {
+    margin-bottom: 15px;
+    text-align: left;
+}
 
-        .footer-links {
-            margin-bottom: 0;
-        }
-    }
+.fa-quote-left:first-child {
+    color: #BF7E04;
+    font-size: 1.5rem;
+    opacity: 0.7;
+}
 
-    /* Large screens (1024px and up) */
-    @media (min-width: 1024px) {
-        .projects {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
+.fa-quote-left:last-child {
+    color: #BF7E04;
+    font-size: 1.5rem;
+    opacity: 0.7;
+    transform: rotate(180deg);
+}
+
 
         .project {
             width: 48%;
