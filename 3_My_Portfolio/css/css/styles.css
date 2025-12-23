@@ -10912,7 +10912,6 @@ section {
   position: absolute;
   background-size: cover;
   pointer-events: auto;
-  overflow: hidden;
 }
 
 .device .button {
