@@ -1,0 +1,69 @@
+@media screen and (min-width: 800px) {
+    .container {
+        max-width: 1100px;
+        margin: 20px auto;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    
+    .title-container {
+        padding: 18px 20px;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    
+    .title-container h1 {
+        font-size: 1.6rem;
+    }
+    
+    .content {
+        padding: 30px;
+    }
+    
+    .photo-section {
+        display: flex;
+        gap: 30px;
+        align-items: flex-start;
+        margin-bottom: 40px;
+    }
+    
+    .photo-container {
+        flex: 1;
+        margin-bottom: 0;
+    }
+    
+    .description {
+        flex: 2;
+        padding: 0 40px;
+    }
+    
+    .fa-quote-left:first-child {
+        font-size: 2rem;
+        left: 5px;
+        top: -5px;
+    }
+    
+    .fa-quote-left:last-child {
+        font-size: 2rem;
+        right: 5px;
+        bottom: -5px;
+    }
+    
+    table {
+        width: 80%;
+        margin: 0 auto 30px;
+    }
+    
+    th, td {
+        padding: 15px 20px;
+    }
+    
+    tr:nth-child(even) {
+        background-color: rgba(191, 126, 4, 0.03);
+    }
+    
+    footer {
+        padding: 30px 20px;
+    }
+}
